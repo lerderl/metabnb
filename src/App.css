@@ -1,0 +1,40 @@
+.connect {
+  width: 170px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+.connect-modal {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.modal-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+.modal-item {
+  gap: 135px;
+  width: 469px;
+  height: 68px;
+  display: flex;
+  flex-shrink: 0;
+  padding: 12px 20px;
+  align-items: center;
+  border-radius: 12px;
+  background: #F8F9FA;
+  border: 1px solid #CFD8DC;
+  justify-content: space-between;
+}
+.left-margin {
+  margin-left: 16px;
+}
+
+@media (min-width : 0px) and (max-width:767px){
+  .modal-item {
+    width: 347px;
+    height: 136px;
+  }   
+}
