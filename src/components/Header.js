@@ -60,14 +60,14 @@ const Header = () => {
               <div className="modal-item">
                 <div>
                   <img src={metamask} alt="Metamask icon" width="44px" height="44px" />
-                  <span className="left-margin">Metamask</span>
+                  <span className="left-margin icon-text">Metamask</span>
                 </div>
                 <img src={breadcrumbDivider} alt="Right arrow" />
               </div>
               <div className="modal-item mt-2">
                 <div>
                   <img src={walletConnect} alt="Wallet connect icon" width="44px" height="44px" />
-                  <span className="left-margin">WalletConnect</span>
+                  <span className="left-margin icon-text">WalletConnect</span>
                 </div>
                 <img src={breadcrumbDivider} alt="Right arrow" />
               </div>

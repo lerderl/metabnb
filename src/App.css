@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap'); 
 .connect {
   width: 170px;
   height: 48px;
@@ -31,6 +32,14 @@
 .left-margin {
   margin-left: 16px;
 }
+.icon-text {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
 footer {
   color: white;
   background: #1D1D1E;
@@ -51,5 +60,8 @@ footer {
   .modal-item {
     width: 347px;
     height: 136px;
-  }   
+  }
+  .left-margin {
+    margin-left: 24px;
+  }
 }
