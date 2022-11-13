@@ -31,6 +31,21 @@
 .left-margin {
   margin-left: 16px;
 }
+footer {
+  color: white;
+  background: #1D1D1E;
+}
+.top-margin {
+  margin-top: 20px;
+}
+.icons {
+  margin-top: 96px;
+  margin-bottom: 73px;
+}
+.size {
+  width: 18px;
+  height: 14.62px;
+}
 
 @media (min-width : 0px) and (max-width:767px){
   .modal-item {

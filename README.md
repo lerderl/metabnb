@@ -6,3 +6,4 @@ Use `npx create-react-app` command to create application
 
 - Use `npm i react-router-dom` to install react router for routing
 - Use `npm i bootstrap@5.2.2` to install styling package
+- Use `npm install react-icons --save` to install icons package
