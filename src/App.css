@@ -55,6 +55,13 @@ footer {
   width: 18px;
   height: 14.62px;
 }
+.footer-headers {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.footer-text {
+  font-size: 14px;
+}
 
 @media (min-width : 0px) and (max-width:767px){
   .modal-item {

@@ -23,27 +23,27 @@ const Footer = () => {
             </div>
             {/* Community */}
             <div className="col-md-6 col-lg-2 top-margin">
-              <p style={{fontWidth:'bolder',fontSize:'18px'}}>Community</p>
-              <p style={{fontSize:'14px'}}>NFT</p>
-              <p style={{fontSize:'14px'}}>Tokens</p>
-              <p style={{fontSize:'14px'}}>Landlords</p>
-              <p style={{fontSize:'14px'}}>Discord</p>
+              <p className='footer-headers'>Community</p>
+              <p className='footer-text'>NFT</p>
+              <p className='footer-text'>Tokens</p>
+              <p className='footer-text'>Landlords</p>
+              <p className='footer-text'>Discord</p>
             </div>
             {/* Places */}
             <div className="col-md-6 col-lg-2 top-margin">
-              <p style={{fontWidth:'bolder',fontSize:'18px'}}>Places</p>
-              <p style={{fontSize:'14px'}}>Castle</p>
-              <p style={{fontSize:'14px'}}>Farms </p>
-              <p style={{fontSize:'14px'}}>Beach</p>
-              <p style={{fontSize:'14px'}}>Learn more</p>
+              <p className='footer-headers'>Places</p>
+              <p className='footer-text'>Castle</p>
+              <p className='footer-text'>Farms </p>
+              <p className='footer-text'>Beach</p>
+              <p className='footer-text'>Learn more</p>
             </div>
             {/* About us */}
             <div className="col-md-6 col-lg-2 top-margin">
-              <p style={{fontWidth:'bolder',fontSize:'18px'}}>About us</p>
-              <p style={{fontSize:'14px'}}>Road map</p>
-              <p style={{fontSize:'14px'}}>Creators</p>
-              <p style={{fontSize:'14px'}}>Career</p>
-              <p style={{fontSize:'14px'}}>Contact us</p>
+              <p className='footer-headers'>About us</p>
+              <p className='footer-text'>Road map</p>
+              <p className='footer-text'>Creators</p>
+              <p className='footer-text'>Career</p>
+              <p className='footer-text'>Contact us</p>
             </div>
           </div>
           <div>&copy; 2022 Metabnb</div>
