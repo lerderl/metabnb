@@ -136,6 +136,21 @@ footer {
 .purple-bg-icon {
   margin-left: 138.77px;
 }
+.inspiration {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+.desert {
+  color: #434343;
+  font-size: 12px;
+  line-height: 13px;
+}
+.frame {
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+}
 
 @media (min-width : 0px) and (max-width:767px){
   .modal-item {
