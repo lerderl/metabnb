@@ -35,12 +35,12 @@
   margin-left: 16px;
 }
 .icon-text {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 600;
   font-size: 18px;
-  line-height: 23px;
   color: #000000;
+  font-weight: 600;
+  line-height: 23px;
+  font-style: normal;
+  font-family: 'Sora';
 }
 footer {
   color: white;
@@ -94,6 +94,18 @@ footer {
   border-radius: 0px 8px 8px 0px;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
 }
+.learn-button {
+  height: 48px;
+  width: 156px;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  margin-bottom: 251.45px;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+}
+.learn-button:hover {
+  color: purple;
+}
 .img-flex {
   display: flex;
   margin-right: 19px;
@@ -109,47 +121,76 @@ footer {
   margin-right: 8px;
 }
 .purple-bg {
-  background-color: #A02279;
   color: white;
+  background-color: #A02279;
 }
 .mbtoken {
-  font-family: './AirbnbCereal_W_Bd.otf';
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 27px;
-  letter-spacing: 0.02em;
   display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 27px;
   align-items: center;
+  letter-spacing: 0.02em;
+  font-family: './AirbnbCereal_W_Bd.otf';
 }
 .opensea {
   width: 148px;
   height: 39px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-size: 32px;
-  line-height: 96%;
-  letter-spacing: -0.03em;
-  color: #FFFFFF;
   display: flex;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 96%;
+  font-style: normal;
   align-items: center;
+  letter-spacing: -0.03em;
+  font-family: 'Poppins', sans-serif;
 }
 .purple-bg-icon {
   margin-left: 138.77px;
 }
 .inspiration {
-  font-weight: 700;
   font-size: 48px;
-  line-height: 60px;
   color: #000000;
+  font-weight: 700;
+  line-height: 60px;
 }
 .desert {
-  color: #434343;
   font-size: 12px;
+  color: #434343;
   line-height: 13px;
 }
 .frame {
-  border: 1px solid #D7D7D7;
   border-radius: 15px;
+  border: 1px solid #D7D7D7;
+}
+.nft-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 186px;
+}
+.discover-nft {
+  font-size: 18px;
+  line-height: 35px;
+  margin-right: 122px;
+}
+.nft-img {
+  margin-top: 100px;
+  margin-bottom: 99.15px;
+}
+.style-card {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.one-mbt {
+  font-weight: bold;
+}
+.km-away {
+  margin-top: 10px;
+}
+.star {
+  margin-top: 9px;
 }
 
 @media (min-width : 0px) and (max-width:767px){
@@ -165,6 +206,9 @@ footer {
   }
   .purple-bg-icon {
     margin-left: 70px;
+  }
+  .learn-button {
+    margin-bottom: 25px;
   }
 }
 
