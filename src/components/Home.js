@@ -2,6 +2,9 @@ import Image3 from "../images/image_3.png";
 import Image4 from "../images/image_4.png";
 import Image5 from "../images/image_5.png";
 import Image6 from "../images/image_6.png";
+import MbtToken from "../images/mbtoken.png";
+import Opensea from "../images/subtract.png";
+import Metamask from "../images/metamask.svg";
 
 const Home = () => {
   return (
@@ -33,6 +36,28 @@ const Home = () => {
               </div> 
             </div> 
           </div>
+        </div>
+      </section>
+      {/* Icons */}
+      <section className="purple-bg">
+        <div className="container purple-bg-icon">
+          <div className="row">
+            <div className="col-md-4 lg-4 sm-12 mb-4 mt-4">
+              <div className="mbtoken">
+                <img src={MbtToken} alt="mbtoken icon" />
+                <span>MBToken</span>
+              </div>
+            </div>
+            <div className="col-md-4 lg-4 sm-12 mb-4 mt-4" >
+              <img src={Metamask} alt="metamask icon"/>
+            </div>
+            <div className="col-md-4 lg-4 sm-12 mb-4 mt-4">
+              <div className="opensea">
+                <img src={Opensea} alt="opensea icon"/>
+                <span>OpenSea</span>
+              </div>
+            </div>
+          </div>          
         </div>
       </section>
     </>
