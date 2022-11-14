@@ -62,6 +62,50 @@ footer {
 .footer-text {
   font-size: 14px;
 }
+.rent {
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+}
+.purple {
+  color: #A02279;
+}
+.we {
+  font-size: 24px;
+  line-height: 35px;
+}
+.input {
+  height: 54px;
+  width: 390px;
+  font-size: 14px;
+  line-height: 130%;
+  border: 1px solid #A3A3A3;
+  border-radius: 8px 0px 0px 8px;
+  background: rgba(247, 247, 247, 0.1);
+}
+.button {
+  height: 54px;
+  width: 230px;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 19px;
+  border-radius: 0px 8px 8px 0px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+}
+.img-flex {
+  display: flex;
+  margin-right: 19px;
+}
+.column-img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.rent-col {
+  margin-top: 39px;
+}
+.img-col {
+  margin-right: 8px;
+}
 
 @media (min-width : 0px) and (max-width:767px){
   .modal-item {
@@ -70,5 +114,8 @@ footer {
   }
   .left-margin {
     margin-left: 24px;
+  }
+  .img-flex{
+    display: grid;
   }
 }
