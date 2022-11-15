@@ -75,13 +75,13 @@ const Home = () => {
       <section className="purple-bg">
         <div className="container">
           <div className="row text-center">
-            <div className="mt-4 col-sm-12 col-md-6 col-lg-4 mb-5 mx-auto">
+            <div className="mt-2 col-sm-12 col-md-6 col-lg-4 mb-2 mx-auto">
               <img src={MbtToken} alt="mbtoken icon" />
             </div>
-            <div className="mt-4 col-sm-12 col-md-6 col-lg-4 mb-5 mx-auto">
+            <div className="mt-2 col-sm-12 col-md-6 col-lg-4 mb-2 mx-auto">
               <img src={Metamask} alt="metamask icon" />
             </div>
-            <div className="mt-4 col-sm-12 col-md-6 col-lg-4 mb-5 mx-auto">
+            <div className="mt-2 col-sm-12 col-md-6 col-lg-4 mb-2 mx-auto">
               <img src={Opensea} alt="opensea icon" />
             </div>
           </div>
