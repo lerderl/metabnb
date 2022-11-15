@@ -4,8 +4,8 @@ import Image3 from "../images/image_3.png";
 import Image4 from "../images/image_4.png";
 import Image5 from "../images/image_5.png";
 import Image6 from "../images/image_6.png";
-import MbtToken from "../images/mbtoken.png";
-import Opensea from "../images/subtract.png";
+import MbtToken from "../images/mbtoken.svg";
+import Opensea from "../images/subtract.svg";
 import Metamask from "../images/metamask.svg";
 import Star from "../images/cardImages/star.png"
 import Frame1 from "../images/cardImages/frame_1.png";
@@ -73,22 +73,16 @@ const Home = () => {
       </section>
       {/* Icons */}
       <section className="purple-bg">
-        <div className="container purple-bg-icon">
-          <div className="row ">
+        <div className="container">
+          <div className="row text-center">
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4 mb-5 mx-auto">
-              <div className="mbtoken">
-                <img src={MbtToken} alt="mbtoken icon" />
-                <span>MBToken</span>
-              </div>
+              <img src={MbtToken} alt="mbtoken icon" />
             </div>
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4 mb-5 mx-auto">
               <img src={Metamask} alt="metamask icon" />
             </div>
             <div className="mt-4 col-sm-12 col-md-6 col-lg-4 mb-5 mx-auto">
-              <div className="opensea">
-                <img src={Opensea} alt="opensea icon" />
-                <span>OpenSea</span>
-              </div>
+              <img src={Opensea} alt="opensea icon" />
             </div>
           </div>
         </div>
