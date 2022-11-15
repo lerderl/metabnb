@@ -111,7 +111,7 @@ const Home = () => {
                 amazing gift cards which are traded as NFTs. These NFTs gives
                 our cutomer access to loads of our exclusive services.
               </p>
-              <button type="button" className="btn learn-button purple">Primary</button>
+              <button type="button" className="btn learn-button purple">Learn more</button>
             </div>
             <div className="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
               <img src={NFTs} alt="NFT images" className="img-fluid nft-img" />
