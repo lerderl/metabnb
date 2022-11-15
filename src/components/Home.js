@@ -1,4 +1,5 @@
 import NFTs from "../images/nfts.png";
+import Inspiration from "./Inspiration";
 import Image3 from "../images/image_3.png";
 import Image4 from "../images/image_4.png";
 import Image5 from "../images/image_5.png";
@@ -97,7 +98,8 @@ const Home = () => {
         <p className="inspiration text-center mt-5">
           Inspiration for your next adventure
         </p>
-        <div className="row row-cols-1 row-cols-md-4 g-4 mb-5">
+        <Inspiration images={images} Star={Star} />
+        {/* <div className="row row-cols-1 row-cols-md-4 g-4 mb-5">
           {images.map((image, id) => (
             <div className="col-sm-12 col-md-6 col-lg-3 mb-5 mx-auto" key={id}>
               <div className="card frame">
@@ -134,7 +136,7 @@ const Home = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
       {/* NFTs */}
       <section className="purple-bg">
