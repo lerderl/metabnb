@@ -192,6 +192,24 @@ footer {
 .star {
   margin-top: 9px;
 }
+.nav-link {
+  color: #434343;
+}
+.nav-link:hover {
+  color: #A02279;
+}
+.location {
+  width: 161px;
+  display: flex;
+  font-size: 16px;
+  color: #333333;
+  line-height: 19px;
+  border-radius: 8px;
+  border: 1px solid #B4B4B4;
+}
+.location:hover {
+  border: 1px solid #A02279;
+}
 
 @media (min-width : 0px) and (max-width:767px){
   .modal-item {
